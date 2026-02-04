@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>офицерски 1937 - велес</title>
+    <style>
+        :root { --gold: #d4af37; --dark: #0a0a0a; --card: #1a1a1a; }
+        body { font-family: 'segoe ui', serif; background: var(--dark); color: white; margin: 0; padding-bottom: 100px; text-align: center; }
+        .header { background: linear-gradient(to bottom, #111, #000); padding: 50px 20px; border-bottom: 3px solid var(--gold); }
+        .logo-circle { width: 90px; height: 90px; border: 3px solid var(--gold); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 0 20px rgba(212, 175, 55, 0.4); }
+        .logo-text { color: var(--gold); font-size: 2.8rem; font-weight: bold; }
+        h1 { margin: 15px 0 0; letter-spacing: 6px; font-size: 1.8rem; text-transform: uppercase; }
+        .container { padding: 15px; max-width: 600px; margin: auto; }
+        .section-title { color: var(--gold); text-transform: uppercase; letter-spacing: 3px; padding: 30px 0 10px; border-bottom: 1px solid #333; margin-bottom: 20px; font-size: 1.2rem; }
+        .card { background: var(--card); border-radius: 18px; overflow: hidden; margin-bottom: 30px; border: 1px solid #222; }
+        .card img, .card video { width: 100%; height: auto; display: block; }
+        .info { padding: 20px; text-align: left; }
+        .info h3 { margin: 0; color: var(--gold); font-size: 1.4rem; }
+        .info p { color: #ccc; font-size: 0.95rem; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo-circle"><span class="logo-text">о</span></div>
+        <h1>офицерски</h1>
+        <div style="color: var(--gold); letter-spacing: 8px;">1937</div>
+    </div>
+
+    <div class="container">
+        
+        <div class="section-title">свежи предлози</div>
+        
+        <div class="card">
+            <img src="sliki/cezar-salata.jpg">
+            <div class="info"><h3>цезар салата</h3><p>нашиот препознатлив вкус.</p></div>
+        </div>
+
+        <div class="card">
+            <img src="sliki/panirana-daska.jpg">
+            <div class="info"><h3>панирана даска</h3><p>крцкаво и свежо мезе за друштво.</p></div>
+        </div>
+
+        <div class="card">
+            <img src="sliki/topla-daska.jpg">
+            <div class="info"><h3>топла даска</h3><p>идеално мезе подготвено со љубов.</p></div>
+        </div>
+
+        <div class="section-title">главно мени</div>
+        
+        <div class="card">
+            <img src="sliki/6332.png">
+            <div class="info"><h3>кралска даска</h3><p>најдоброто мезе за друштво.</p></div>
+        </div>
+
+        <div class="card">
+            <img src="sliki/6668.webp">
+            <div class="info"><h3>домашна пастрмајлија</h3><p>традиционален вкус од велес.</p></div>
+        </div>
+        
+        <div class="section-title">десерт</div>
+        <div class="card">
+            <video autoplay muted loop playsinline>
+                <source src="sliki/6330.mp4" type="video/mp4">
+            </video>
+            <div class="info"><h3>топло-ладно</h3><p>чоколадна магија што тече.</p></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
